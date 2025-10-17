@@ -1,5 +1,10 @@
 jv para rodar nn use:
-g++ main.cpp -o main
 
+```bash
+g++ main.cpp -o main
+```
 seu animal, use:
+
+```bash
 g++ main.cpp fracao.cpp -o main
+```
