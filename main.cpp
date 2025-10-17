@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 
     Fracao f3;
 
-    f3 = f1 * 7;
+    f3 = f1.mult(7);
     std::cout << f3.get_numerador() << std::endl;
     std::cout << f3.get_denominador() << std::endl;
 

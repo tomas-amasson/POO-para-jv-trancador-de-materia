@@ -15,6 +15,7 @@ class Fracao
         void set_numerador(int num);
         void set_denominador(int den);
         Fracao mult(Fracao f2) const;
+        Fracao mult(int n) const;
 };
 
 Fracao operator*(Fracao f1, int n);

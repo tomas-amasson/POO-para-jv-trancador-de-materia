@@ -59,3 +59,11 @@ Fracao Fracao::mult(Fracao f2) const
 
     return f3;
 }
+
+Fracao Fracao::mult(int n) const
+{
+    Fracao f3;
+    f3.set_denominador(get_denominador() * n);
+    f3.set_numerador(get_numerador());
+    return f3;
+}
