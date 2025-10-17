@@ -17,6 +17,7 @@ class Fracao
         Fracao mult(Fracao f2) const;
 };
 
+Fracao operator*(Fracao f1, int n);
 Fracao operator*(Fracao f1, Fracao f2);
 
 #endif

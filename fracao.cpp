@@ -40,6 +40,16 @@ Fracao operator*(Fracao f1, Fracao f2)
     return f3;
 }
 
+Fracao operator*(Fracao f1, int n)
+{
+    Fracao f3;
+
+    f3.set_denominador(f1.get_denominador());
+    f3.set_numerador(f1.get_numerador() * n);
+
+    return f3;
+}
+
 Fracao Fracao::mult(Fracao f2) const
 {
     Fracao f3;
