@@ -6,12 +6,12 @@ Fracao::Fracao(int num, int den)
     set_denominador(den);
 }
 
-int Fracao::get_denominador()
+int Fracao::get_denominador() const
 {
     return denominador;
 }
 
-int Fracao::get_numerador()
+int Fracao::get_numerador() const
 {
     return numerador;
 }
@@ -40,7 +40,7 @@ Fracao operator*(Fracao f1, Fracao f2)
     return f3;
 }
 
-Fracao Fracao::mult(Fracao f2)
+Fracao Fracao::mult(Fracao f2) const
 {
     Fracao f3;
 

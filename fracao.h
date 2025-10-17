@@ -9,12 +9,12 @@ class Fracao
     public:
         Fracao(int num= 0, int den= 1);
 
-        int get_numerador();
-        int get_denominador();
+        int get_numerador() const;
+        int get_denominador() const;
 
         void set_numerador(int num);
         void set_denominador(int den);
-        Fracao mult(Fracao f2);
+        Fracao mult(Fracao f2) const;
 };
 
 Fracao operator*(Fracao f1, Fracao f2);
