@@ -67,3 +67,11 @@ Fracao Fracao::mult(int n) const
     f3.set_numerador(get_numerador());
     return f3;
 }
+
+Fracao operator*(int n, Fracao f1)
+{
+    Fracao f3;
+    f3.set_denominador(f1.get_denominador());
+    f3.set_numerador(f1.get_numerador() * n);
+    return f3;
+}

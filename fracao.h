@@ -19,6 +19,7 @@ class Fracao
 };
 
 Fracao operator*(Fracao f1, int n);
+Fracao operator*(int n, Fracao f1);
 Fracao operator*(Fracao f1, Fracao f2);
 
 #endif
